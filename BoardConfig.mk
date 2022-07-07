@@ -23,6 +23,7 @@ TARGET_BOOTLOADER_BOARD_NAME := lava
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
